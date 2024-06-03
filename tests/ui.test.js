@@ -1,5 +1,5 @@
 const {test, expect} = require("@playwright/test");
-const appUrl = appUrl;
+const appUrl = "http://localhost:3000";
 
 test('Verify All Books link is visible', async ({page}) => {
     //Open the application
